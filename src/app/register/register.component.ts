@@ -11,7 +11,8 @@ export class RegisterComponent implements OnInit {
   Phone="";
   password="";
   confirmpassword="";
-  
+  userdetails="";
+
   constructor() { }
 
   ngOnInit(): void {
@@ -19,12 +20,7 @@ export class RegisterComponent implements OnInit {
 
   onRegister()
   {
-    this.username= this.username + " - Username added successfully";
-  this.Email= this.Email + " - Email added successfully";
-  this.Phone=this.Phone+ " - Phone added successfully";
-  this.password=this.password+ " - password added successfully";
-  this.confirmpassword=this.confirmpassword+ " - confirmpassword added successfully";
-  
+    this.userdetails="Userdetails added successfully..!"  
   }
 
 }
